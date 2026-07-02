@@ -1,0 +1,11 @@
+services:
+  frontend:
+    build: ../../../../Downloads/front-despacho-main
+    container_name: frontend-despacho
+    restart: always
+    ports:
+      - "80:80"
+
+networks:
+  default:
+    driver: bridge
