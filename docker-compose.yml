@@ -1,6 +1,6 @@
 services:
   frontend:
-    build: ../../../../Downloads/front-despacho-main
+    build: .
     container_name: frontend-despacho
     restart: always
     ports:

@@ -8,7 +8,7 @@ COPY package*.json ./
 RUN npm install
 
 # Copiar el resto del código
-COPY ../../../../Downloads/front-despacho-main .
+COPY . .
 
 # Construir la aplicación para producción
 RUN npm run build
